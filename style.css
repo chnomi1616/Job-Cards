@@ -1,0 +1,123 @@
+body {
+  /* display: flex; */
+  margin-top: 3%;
+  margin-left: 26%;
+  justify-content: center;
+}
+.im {
+  width: 5px;
+  height: 38px;
+}
+
+.img {
+  width: 183px;
+  height: 38px;
+}
+
+.row {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+.position {
+  border: 2px solid #c2c5e2;
+  width: 182px;
+  justify-content: center;
+  border-radius: 6px;
+  margin-top: 35px;
+  height: 37px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px;
+  height: 154px;
+  border-radius: 5px solid;
+  /* justify-content: space-between; */
+  /* display: flex; */
+  margin: 1%;
+  padding: 1%;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+}
+img {
+  width: 40px;
+  height: 38px;
+}
+h4 {
+  margin: 2px;
+  padding-top: 7px;
+}
+h2 {
+  justify-content: center;
+  text-align: center;
+  margin-left: -219px;
+}
+p {
+  justify-content: center;
+
+  padding-top: 5px;
+  text-align: center;
+}
+
+#button1 {
+  margin-top: 35px;
+  margin-bottom: 11px;
+  outline: 0;
+  border: 0;
+  background: none;
+  border: 1px solid #d9d9d9;
+  padding: 10px 0px;
+  margin-bottom: -4px;
+  color: #515151;
+  width: 164px;
+  font-family: inherit;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+
+  margin-left: 15px;
+  background-color: #0c1033;
+  color: #fff;
+  height: 45px;
+  justify-content: center;
+}
+
+#button2 {
+  margin-top: 35px;
+  margin-bottom: 11px;
+  outline: 0;
+  border: 0;
+  background: none;
+  border: 1px solid #d9d9d9;
+  padding: 10px 0px;
+  margin-bottom: -4px;
+  color: black;
+  font-family: inherit;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  margin-left: 20px;
+  border-radius: 14px;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  height: 45px;
+}
